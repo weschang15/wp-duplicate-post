@@ -1,0 +1,20 @@
+.tabs-list
+  display: flex
+  margin: 0
+  padding: 0
+  overflow: hidden
+  flex-wrap: wrap
+
+.tabs-list__item
+  padding: 12px 15px
+  border-radius: 4px 4px 0 0
+  margin-bottom: 0
+  font-size: 14px
+  cursor: pointer
+
+.tabs-list__item.js-is-active 
+  border-bottom: 2px solid $green
+  font-weight: 700
+
+.tabs-list__item:not(.js-is-active)
+  color: #808080

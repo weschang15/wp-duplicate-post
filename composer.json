@@ -1,0 +1,19 @@
+{
+  "name": "wesleychang/wp-duplicate-post",
+  "description": "WordPress duplicate post feature",
+  "authors": [
+    {
+      "name": "Wesley Chang",
+      "email": "weschang15@gmail.com"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "WesleyChang\\WPDP\\": "./inc"
+    },
+    "files": [
+      "./inc/Functions/Template.php"
+    ]
+  }
+}

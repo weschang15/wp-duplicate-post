@@ -1,0 +1,99 @@
+table
+  border-collapse: collapse
+  border-spacing: 0
+  max-width: 720px
+  width: 100%
+  font-size: 14px
+
+table thead td
+  border-bottom: 2px solid #262626
+  padding: .75em
+  line-height: 1
+  @media screen and (min-width: 640px)
+    min-width: 180px
+
+table tbody td
+  border-bottom: 1px solid #d9d9d9
+  font-family: 'Inconsolata', Courier New, Courier, monospace
+  font-weight: 700
+  padding: .75em
+table tbody td strong
+  color: #808080
+table tbody td:first-child
+  color: $purple
+  
+table tbody td:last-child
+  color: $sky
+
+.wrap
+  font-family: Lato,-apple-system,BlinkMacSystemFont,Arial,"Helvetica Neue",sans-serif
+  -moz-osx-font-smoothing: grayscale
+  -webkit-font-smoothing: antialiased
+  box-sizing: border-box
+  text-rendering: optimizeLegibility
+  font-size: 16px
+  line-height: 1.618
+  color: #262626
+  h1.wrap__title
+    margin: 1em 0 .5em
+    display: block
+    font-size: 3.2em
+    letter-spacing: -0.05em
+    line-height: 0.85
+    color: #d9d9d9
+    font-weight: 900
+    text-transform: uppercase
+  p, input
+    font-size: 1em
+  h4
+    text-transform: uppercase
+    letter-spacing: 0.025em
+    color: #808080
+    + pre
+      margin-top: 0
+  pre 
+    overflow: auto
+    &::-webkit-scrollbar
+      display: none
+    code
+      padding: .75em 1em
+  code
+    display: inline-block
+    line-height: 1.75
+    font-family: 'Inconsolata', Courier New, Courier, monospace
+    font-size: 14px
+  blockquote
+    border-left: 6px solid #e2231a
+    color: #e2231a
+    margin: 0
+    padding: 0 0 0 1.5em
+    font-size: 18px
+  aside.callout
+    padding: 1em
+    letter-spacing: .025rem
+    border-radius: 4px
+    border: 1px solid #d9d9d9
+    -webkit-box-shadow: 0 8px 10px 1px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12), 0 5px 5px -3px rgba(0,0,0,.2)
+    box-shadow: 0 8px 10px 1px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12), 0 5px 5px -3px rgba(0,0,0,.2)
+    font-size: 18px
+    font-weight: 900
+  aside.pullquote
+    border-bottom: 1px solid #e2231a
+    border-top: 1px solid #e2231a
+    padding: 1.25em 8%
+    font-weight: 700
+    font-size: 18px
+    cite
+      display: block
+      padding: .5em 0
+      text-align: right
+      font-size: 14px
+      color: grey
+      font-style: normal
+  ul:not(.tabs-list)
+    list-style: initial
+    padding-left: 30px
+  .footnote
+    font-size: 14px
+    color: #818387;
+  
